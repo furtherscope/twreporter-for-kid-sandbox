@@ -54,6 +54,7 @@ class _HeadEntryPoint extends React.PureComponent {
         topOffset={this.props.topOffset}
         bottomOffset={this.props.bottomOffset}
         onPositionChange={this._handlePositionChange}
+        debug
       >
         <EntryPoint />
       </Waypoint>
